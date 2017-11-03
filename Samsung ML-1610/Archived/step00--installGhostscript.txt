@@ -1,0 +1,3 @@
+Install ghostscript
+
+brew install ghostscript

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-script minSpecVersion="1.000000" authoringTool="com.apple.PackageMaker" authoringToolVersion="3.0.4" authoringToolBuild="179">
+    <title>Splix</title>
+    <options customize="never" allow-external-scripts="no" rootVolumeOnly="true"/>
+    <welcome language="en" mime-type="text/rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf250
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\fnil\fcharset0 TrebuchetMS;\f2\fnil\fcharset0 LucidaGrande;
+}
+{\colortbl;\red255\green255\blue255;\red211\green140\blue55;}
+\deftab720
+\pard\pardeftab720\sa320\ql\qnatural
+
+\f0\fs30 \cf0 This is a Mac OS X package for SpliX, a set of\'a0{\field{\*\fldinst{HYPERLINK "http://www.cups.org/"}}{\fldrslt 
+\f1\b\fs28 \cf2 CUPS}}\'a0printer drivers for SPL (Samsung Printer Language) printers.
+\f2\fs26 \
+
+\f0\fs30 SpliX is *NOT* affiliated to Samsung. These drivers have been produced without the approvement of this manufacturer either the Xerox one. These companies only distribute proprietary and old drivers.
+\f2\fs26 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\ql\qnatural\pardirnatural
+\cf0 Supported printers:\
+\
+Dell 1100, 1110\
+Samsung CLP-200, CLP-300, CLP-500, CLP-600, CLP-610, CLX-216X, CLX-2170, CLX-3160, ML-1510, ML-1520, ML-1610, ML-1630, ML-1710, ML-1740, ML-1750, ML-2010, ML-2150, ML-2250, ML-2510, ML-2550, ML-2571, ML-3050, ML-3560\
+Xerox Phaser 3115, 3116, 3117, 3120, 3121, 3122, 3130, 3150, 3420, 3425, 5500, 6100, 6110}]]></welcome>
+    <readme language="en" mime-type="text/rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf250
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 If you are upgrading your current version, you MUST delete your printer in the System Preferences and install it again. \
+This operation MUST be done since CUPS make a copy of the PPD file and this file is modified between versions.\
+}]]></readme>
+    <conclusion language="en" mime-type="text/rtf"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf250
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 More info on this package (and probably newer versions) can be found at http://www.guigo.us/mac/splix\
+\
+Feedback is also welcome! \
+\
+Thanks for using this package.}]]></conclusion>
+    <choices-outline>
+        <line choice="splix"/>
+    </choices-outline>
+    <choice id="splix" title="Splix 2.0" start_visible="false">
+        <pkg-ref id="us.guigo.splix.target.pkg"/>
+    </choice>
+    <pkg-ref id="us.guigo.splix.target.pkg" installKBytes="968" version="2.0.0" auth="Root">file:./Contents/Packages/target.pkg</pkg-ref>
+</installer-script>
