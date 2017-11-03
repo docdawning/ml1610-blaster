@@ -5,7 +5,7 @@ My detailed blog post introducing ml1610-blaster is here: <a href="https://dawni
 <BR />
 <h1>Installation Steps</h1>
 <ol>
-  <li>Download the release zip: <a href="https://github.com/docdawning/ml1610-blaster/archive/v1.0.zip" target="_new">here's a link</a></li>
+  <li>Download the release zip: <a href="https://github.com/docdawning/ml1610-blaster/archive/v1.0.zip" target="_new">here's a link</a>.</li>
   <li>Unzip the release zip somewhere, pay attention where.</li>
   <li>Run the splix installer. It WILL FAIL. But it seems to succeed enough in some way that matters.</li>
   <li>Open your System Preferences, go in to Printers and click the plus button to add a new one.</li>
