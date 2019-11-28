@@ -13,6 +13,13 @@ My detailed blog post introducing ml1610-blaster is here: <a href="https://dawni
 </ol>
 
 <BR />
+<h1>Known Issues</h1>
+<ul>
+  <li>Does not work on macOS Catalina (10.15). Suspect the root issue is the dropping of 32bit support</li>
+  <li>As mentioned in the installion steps, the mpkg installer reports that it fails, this is expected and fine, unless using it on Catalina</li>
+</ul>
+
+<BR />
 <h1>Installation Demo</h1>
 <img src="https://github.com/docdawning/ml1610-blaster/blob/master/Samsung%20ML-1610/ml1610-blaster-1-screencast.gif?raw=true" />
 The video should appear above, but it may be slow because it's a massive GIF, it can also be watched on YouTube, <a href="https://www.youtube.com/watch?v=SQFGFRP_Jz4" target="_new">here</a>
