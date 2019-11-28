@@ -15,7 +15,7 @@ My detailed blog post introducing ml1610-blaster is here: <a href="https://dawni
 <BR />
 <h1>Known Issues</h1>
 <ul>
-  <li>Does not work on macOS Catalina (10.15). Suspect the root issue is the dropping of 32bit support</li>
+  <li>Does not work on macOS Catalina (10.15). Suspect the root issue is the dropping of 32bit support. You can use it indirectly if you have an older Mac and you enable Printer Sharing on it.</li>
   <li>As mentioned in the installion steps, the mpkg installer reports that it fails, this is expected and fine, unless using it on Catalina</li>
 </ul>
 
